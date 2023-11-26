@@ -1,0 +1,97 @@
+.heading h1{
+    color: black;
+    font-size: 50px;
+    margin-left:535px;
+    margin-top: 15px;
+}
+.bar input{
+    border:2px solid black;
+    margin-top: 30px;
+    margin-left: 310px;
+}
+.total{
+    display: flex;
+    /* border: 2px solid red; */
+    height:100px;
+    background-color: rgb(0, 145, 255);
+}
+.content {
+    display: flex;
+    /* border:2px solid red; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.card{
+    border: 4px solid red;
+    width: 400px;
+    height: 490px;
+    margin-top: 40px;
+    background-color: black;
+    position: relative;
+}
+
+.board img {
+    width:90%;
+   height: 390px;
+   margin-top: 20px;
+   margin-left: 20px;
+    /* border: 2px solid blue; */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.board img:hover{
+    transform: scale(1.07); /* Enlarge the card on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+.display{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    color: aliceblue;
+}
+
+.back{
+    border: 2px solid green;
+    width: 45px;
+    height: 35px;
+    background-color: green;
+    border-radius: 2px;
+    margin-bottom: -10px;
+}
+.back h3 {
+    margin-left: 18px;
+    margin-top: 5px;
+}
+/* .box {
+    border: 2px solid red;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgba(128, 128, 128, 0.619);
+    transition: transform 0.3s ease;
+    color: white;
+    transform: translateY(100%);
+} */
+.box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 370px;
+    padding: 10px 15px;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card:hover .box{
+    opacity: 1;
+    background-color: rgba(33, 33, 33, 0.97);
+    color: #fff;
+}
+
+.board:hover .card {
+    display: block;
+    transform: translateY(0);
+}

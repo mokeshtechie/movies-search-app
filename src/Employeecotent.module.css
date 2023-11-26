@@ -1,0 +1,10 @@
+.card
+{
+    background-color: black;
+    color: red;
+    border: 2px solid rgb(0, 255, 140) ;
+    margin-left: 50px;
+    margin-top: 40px;
+    text-align: center;
+   
+}

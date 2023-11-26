@@ -1,0 +1,15 @@
+.navbar
+{
+    background-color: orange;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    height: 80px;
+}
+.name
+{
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 25px;
+    color: black;
+}
